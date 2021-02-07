@@ -30,7 +30,7 @@ module Bot
           servers_size+=0
         end
       end
-      status = "#{servers_size}servers|#{members_size}friends"
+      status = "Created by cron|#{servers_size}servers|#{members_size}friends"
       main.logger.info("New Status: #{status}")
       main.bot.update_status("online",status,nil,100000,false,0)
     end

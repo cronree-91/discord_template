@@ -4,6 +4,8 @@ require 'discordrb'
 require_relative "main.rb"
 require_relative "run.rb"
 require_relative "event.rb"
+require_relative "data.rb"
+
 module Bot
   class Logger
     def initialize(name)
